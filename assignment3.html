@@ -4,7 +4,7 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
 
-        <title>Example Student's HCDE 439 Physical Computing Page!</title> 
+        <title>Nichelle Song's HCDE 533 A3</title> 
 
         <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 
@@ -12,13 +12,219 @@
     <body> 
 
         <div class="header">
-            <h1>Example Student's Assignment 2!</h1>
+            <h1>Assignment 3: Getting started with 3D printing</h1>
+
             <p>
+            Assembling my Ender Pro 3D printer took around 2.5 to 3 hours. I followed <a href="https://www.youtube.com/watch?v=ibsOYzXduYc">the tutorial</a> provided on Canvas assignment to build and used <a href="https://www.thingiverse.com/thing:3235018">these files to level the bed.
+            </p>
+
             <img src="red-panda.jpg" width=400></a>
-            </p>
+
             <p>
-            Here is all the documentation for assignment 2!
+            I releveled around 3 times to get the squares printed correctly using the source files.
             </p>
+            <img src="src/a3/printerWorking.jpg" width=400></a>
+
+            <p>
+            After that came the real challenge. I was able to make the 2cm edge cube in low quality, which was great news.
+            </p>
+
+            <p>
+            However, I was not able to get the standard quality and super quality. After trying out the low quality print again, I realized my printer was struggling with the finer, higher quality prints due to temperature. I tried cleaning the bed, releveling 5 more times, but it turns out I just needed to increase temperature on the nozzle (215 celsius), and bed (75 celsius) and then I was able to print the standard quality. For super quality, I was also having issues with the same temperatures applied for standard quality, so I increased the nozzle to 230 celsius, and bed to be at 75 celsius. After half way through (around 35 minutes), the print was moving around in the air again. So I went to the MILL, ended up having  similar issues with the PRUSA printer. A MILL staff helped me troubleshoot, lowering the nozzle and putting some glue on the bed. Then, I was able to finally print normally.
+            </p>
+
+            <p>
+            Here are the estimations and actual times for the cube prints.
+            </p>
+
+             <table>
+                  <tr>
+                    <th>Printed object</th>
+                    <th>Estimated time on printing (min)</th>
+                    <th>Actual time took on printing (min)</th>
+                    <th>Measured width (mm)</th>
+                    <th>Measured height (mm)</th>
+                    <th>Measured depth (mm)</th>
+
+                  </tr>
+                  <tr>
+                    <td>2cm edge cube on low quality</td>
+                    <td>20</td>
+                    <td>23</td>
+                    <td>20.03</td>
+                    <td>20.26</td>
+                    <td>19.70</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>2cm edge cube on standard quality</td>
+                    <td>26</td>
+                    <td>32</td>
+                    <td>19.69</td>
+                    <td>20.28</td>
+                    <td>20.04</td>
+                  </tr>
+
+                <tr>
+                  <td>2cm edge cube on super quality</td>
+                    <td>50</td>
+                    <td>NOTE: stopped after 35 min</td>
+                    <td>NA</td>
+                    <td>NA</td>
+                    <td>NA</td>
+                </tr>
+
+                <tr>
+                <td>2cm edge cube on low quality with a concentric top and bottom layer</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>20.11</td>
+                    <td>20.31</td>
+                    <td>20.09</td>
+                </tr>
+                </table> 
+
+            <p>
+            Here are the printed cubes in this order: 2cm edge cube on low quality, 2cm edge cube on standard quality, 2cm edge cube on super quality, and 2cm edge cube on low quality with a concentric top and bottom layer.
+            </p>
+
+            <img src="src/a3/cubePrinted.jpg" width=400></a>
+            <img src="src/a3/nested-back.jpg" width=400></a>
+            <img src="src/a3/nested-top.jpg" width=400></a> 
+            <img src="src/a3/concentric-cube.jpg" width=400></a>             
+
+            <p>
+            Here are the estimations and actual times for the tube prints.
+            </p>
+
+             <table>
+                  <tr>
+                    <th>Printed object</th>
+                    <th>Estimated time on printing (min)</th>
+                    <th>Actual time took on printing (min)</th>
+                    <th>Measured diameter (mm)</th>
+                    <th>Measured height (mm)</th>
+                    <th>Measured wall thickness (mm)</th>
+
+                  </tr>
+                  <tr>
+                    <td>3cm diameter + 3cm height tube with single extrusion wall thickness</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td>30.76</td>
+                    <td>30.06</td>
+                    <td>1.04</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>3cm diameter + 3cm height tube with doubles extrusion wall thickness</td>
+                    <td>18</td>
+                    <td>20</td>
+                    <td>31.11</td>
+                    <td>30.06</td>
+                    <td>1.05</td>
+                  </tr>
+
+            </table> 
+
+            <p>
+            Here are the printed tubes in this order from left to right: 3cm diameter + 3cm height tube with single extrusion wall thickness and 3cm diameter + 3cm height tube with doubles extrusion wall thickness.
+            </p>
+
+            <img src="src/a3/single-double extrusion.jpg" width=400></a>
+
+            <p>
+            Here are the estimations and actual times for the cylinder prints.
+            </p>
+
+             <table>
+                  <tr>
+                    <th>Printed object</th>
+                    <th>Estimated time on printing (min)</th>
+                    <th>Actual time took on printing (min)</th>
+                    <th>Measured diameter (mm)</th>
+                    <th>Measured height (mm)</th>
+
+                  </tr>
+                  <tr>
+                    <td>3cm diameter cylinder, 1.5cm height exported with a 0.1mm tolerance</td>
+                    <td>24</td>
+                    <td>24</td>
+                    <td>29.94</td>
+                    <td>15.28</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>3cm diameter cylinder exported with a 0.001mm tolerance</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>30.05</td>
+                    <td>15.40</td>
+                  </tr>
+
+                <tr>
+                    <td>3cm diameter cylinder, 1.5cm height with special mode "spiralize outer contour"</td>
+                    <td>13</td>
+                    <td>15</td>
+                    <td>29.41</td>
+                    <td>15.34</td>
+                  </tr>
+
+                <tr>
+                    <td>3cm diameter cylinder, 1.5cm height printed on its side with supports on</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>29.93</td>
+                    <td>15.05</td>
+                  </tr>
+
+            </table> 
+
+            <p>
+            Here are the printed cylinders in this order: 3cm diameter cylinder exported with a 0.1mm tolerance, 3cm diameter cylinder exported with a 0.001mm tolerance, 3cm diameter cylinder with special mode "spiralize outer contour", and 3cm diameter cylinder printed on its side with supports on.
+            </p>
+
+            <img src="src/a3/cylinder-0.1.jpg" width=400></a>
+            <img src="src/a3/cylinder-0.001.jpg" width=400></a>
+
+            <img src="src/a3/outer-spiral-front.jpg" width=400></a>  
+            <img src="src/a3/outer-spiral-top.jpg" width=400></a>     
+
+            <img src="src/a3/onside-front.jpg" width=400></a>
+            <img src="src/a3/onside-side.jpg" width=400></a>
+
+
+            <p>
+                Next, I made a nested object on rhino. I made the 3 tubes to be printed together. The diameters from smallest to biggest were 15mm, 30mm, and 40mm. The heights were all 20mm and thickness was 1mm. Estimated time to print was 30 min at low quality. Since the parts are not attached, my measurements will not be accurate. Instead, I took a picture of the final outcome. Actual time to print was 31 minutes. As you can tell in the picture, some parts were not printed perfectly due to filament consistency, but not sure how to make sure that doesn't happen in the future yet...
+            </p>
+
+
+            <img src="src/a3/nested-front.jpg" width=400></a>
+            <img src="src/a3/nested-back.jpg" width=400></a>
+            <img src="src/a3/nested-top.jpg" width=400></a>
+
+
+        <p>
+          Source files
+             <ul>
+                <li><a href="src/a3/A3-cube.3dm">A3 cube rhino file</a></li>
+                <li><a href="src/a3/A3-tube.3dm">A3 tube rhino file</a></li>
+                <li><a href="src/a3/cylinder.3dm">A3 cylinder rhino file</a></li>
+                <li><a href="src/a3/nested.3dm">A3 nested object rhino file</a></li>
+                <li><a href="src/a3/Gcode files.zip">All Gcode files</a></li>
+            </ul> 
+
+        </p>
+
+        <p>
+          Acknowledgement--thanks everyone!
+            <ul>
+              <li>Following conversations on Discord was super helpful: Junchao, Danli, Jessica, Jisu</li>
+              <li>Mill staff who was on shift on 10/24/22. He helped me bring down the nozzle and get unblocked on PRUSA printer.</li>
+            </ul> 
+        </p>
+
+
         </div>
         
     </body>
