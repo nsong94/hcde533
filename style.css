@@ -29,7 +29,7 @@ a {
   font-size: 12px;
   line-height: 24px;
   font-family: 'helvetica', 'arial', 'sans';
-  padding: 20px 20px 20px 30px;
+  padding: 20px 20px 120px 30px;
   width: 250px;
   height: 350px;
   float: left;
@@ -77,3 +77,4 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+

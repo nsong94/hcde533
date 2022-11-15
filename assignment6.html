@@ -26,14 +26,17 @@
             <img src="src/a6/printable-whale.png" width=400></a>                         
 
             <p>
-            As shown in the screenshot, when I exported and imported to Cura, it was going to take around 13 hours to print. From there, I decided to scale back to a simple lightbulb holder, so it only takes me around 2 hours to print.
+            As shown in the screenshot, when I exported and imported to Cura, it was going to take around 13 hours to print. From there, I decided to scale back to a simple lightbulb holder, so it only takes me around 2 hours to print. Since the printer at home is not very functional, I went to the Mill to print using the Dremel printer. One of the Prusa's was also down.
             </p>
 
             <img src="src/a6/printable-lamp.png" width=400></a>             
 
             <p>
-            Here's my lamp
+            Here's my finished lamp. If I had more time, I would've built the walls taller and made more holes to cover up the lightbulb head and allow some lights to come through the holes, but for right now it's a lightbulb holder. As you can tell it didn't completely print correctly either. I'll try Prusa next time when it's available to use. 
             </p>
+
+            <img src="src/a6/lamp-cord.jpg" width=400></a>             
+
 
             <p>
                 Source files Part 1
@@ -50,7 +53,34 @@
             Part 2: Molding and casting (pt 1/2)
             </p>
 
+            <p>
+            For my mold for mold, I wanted to do something cool for once, so I looked on Thingiverse for something cute...and found Ditto. I started out by downloading the STL from Thingiverse and quad-remeshed a lot of times before turning him into a polysurface. In order to cut Ditto in half. I used a thin layer of a rectangular plane (0.01mm) to cut with Booleansplit. From there I struggled with getting it in the right position in the mold. I wanted to make sure he's perfectly aligned, so when the keys are lining up, both parts of Ditto would fit. This took a few trial and error because I kept ending up with a half of him facing the wrong side. I used mirror on the Y axis to make sure all the parts are in the exact place when put together.
+            </p>
 
+            <p>
+            What I struggled with next is making the extra 'layer' that would hold the oomoo. I ended up creating a bigger rectangle to hug the pieces, extruded it, then boolean-differenced another extruded rectangle out. 
+            </p>
+
+            <img src="src/a6/ditto-rendered.png" width=400></a>
+            <img src="src/a6/ditto-cura.png" width=400></a>  
+            <img src="src/a6/dremel.jpg" width=400></a>  
+
+
+            <p>
+            For some reason at the time the 3 Dremel printers I tried to use were all not working, so the Mill staff and I spent around 3+ hours trying to troubleshoot. The 4th one seemed to be working (this was past 10:30), so I left the print job to run over night. I'll be stopping by the next day to check on the print, but here's what it looked like when I was printing.
+            </p>
+            
+            <img src="src/a6/printing-in-progress.jpg" width=400></a>             
+
+            <p>
+                Source files Part 2
+                 <ul>
+                    <li><a href="src/a6/toprinta6.3dm">ditto rhino file to print</a></li>
+                    <li><a href="src/a6/joineddittobottom.stl">ditto bottom STL</a></li>
+                    <li><a href="src/a6/joineddittotop.stl">ditto top STL</a></li>
+                    <li><a href="https://www.thingiverse.com/thing:1932974">Ditto file</a></li>
+                </ul> 
+            </p>
 
 
         <p>
@@ -58,6 +88,7 @@
             <ul>
               <li>Professor + Classmate thread on discord</li>
               <li>Jisu for teaching me MeshtoNURB</li>
+              <li>Mill staff on shift 11/13-14 nights</li>
             </ul> 
         </p>
 
